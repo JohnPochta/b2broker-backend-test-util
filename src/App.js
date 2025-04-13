@@ -3,11 +3,6 @@ import { useState } from 'react';
 
 import './App.css';
 
-// {
-//   contractAddress: '0xDf9DbA050e95285D53659B6c2AbcE96B5883295a',
-//   transactionData: '0x2dabbeed0000000000000000000000000000000000000000000000000000000000000013',
-// }
-
 const connectToMetamask = async ({ setAccount, setError }) => {
   try {
     if (!window.ethereum) {
