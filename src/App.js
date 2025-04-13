@@ -41,7 +41,7 @@ const sendTransaction = async ({ account, setTxHash, setError }) => {
     body: JSON.stringify({
       "tokenTicker": "B2BT",
       "tokenAmount": 10,
-      "userAddress": "0x2D0bf6D3BD0636eec331f7c2861F44D74a2dcaC3"
+      "userAddress": account,
     }),
     headers: {
       'Content-Type': 'application/json',
